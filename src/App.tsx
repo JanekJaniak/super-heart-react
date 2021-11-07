@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './App.sass';
+import './styles/styles.sass'
 
 import Header from './components/layout/header';
 

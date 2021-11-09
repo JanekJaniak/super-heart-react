@@ -4,7 +4,7 @@ import logo from "../../img/logo.png"
 
 const Header = (props:any) => {
   console.log( props)
-  return <Fragment>
+  return (<Fragment>
     <header>
       <img 
         className="main-logo" 
@@ -14,7 +14,7 @@ const Header = (props:any) => {
         alt="Heart logo"
       ></img>
     </header>
-  </Fragment>
+  </Fragment>)
 }
 
 export default Header

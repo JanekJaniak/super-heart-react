@@ -1,10 +1,7 @@
-import { Fragment } from "react"
-
 import logo from "../../img/logo.png"
 
-const Header = (props:any) => {
-  console.log( props)
-  return (<Fragment>
+const Header = () => {
+  return (
     <header>
       <img 
         className="main-logo" 
@@ -13,8 +10,7 @@ const Header = (props:any) => {
         width="224px"
         alt="Heart logo"
       ></img>
-    </header>
-  </Fragment>)
+    </header>)
 }
 
 export default Header
